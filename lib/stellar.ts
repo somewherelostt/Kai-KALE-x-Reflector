@@ -21,9 +21,7 @@ export const networkPassphrase = Networks.TESTNET;
 // Contract addresses (these should be set from environment variables)
 export const CONTRACT_ADDRESSES = {
   KAIZEN_EVENT: process.env.NEXT_PUBLIC_KAIZEN_EVENT_CONTRACT || "",
-  KALE_TOKEN:
-    process.env.NEXT_PUBLIC_KALE_TOKEN_CONTRACT ||
-    "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQAHHAGCX4J5",
+  KALE_TOKEN: process.env.NEXT_PUBLIC_KALE_TOKEN_CONTRACT || "", // Leave empty if not configured - will use native asset instead
   KALE_STAKING: process.env.NEXT_PUBLIC_KALE_STAKING_CONTRACT || "",
 };
 
